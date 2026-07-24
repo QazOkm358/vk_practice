@@ -79,7 +79,7 @@
 │   ├── predictions_mmbench.csv      — то же для MMBench-ru
 │   └── predictions_bos_sweep.csv    — ответы в режиме с BOS
 ├── docs/
-│   ├── REPORT.md                    — технический отчёт
+│   ├── TECHREPORT.md                — технический отчёт
 │   └── EXPERIMENTDIARY.md           — дневник экспериментов
 └── adapter/                         — LoRA-адаптер (веса + processor и tokenizer)
 ```
