@@ -1,0 +1,21 @@
+# Версии закреплены намеренно: произвольные свежие версии ломают пайплайн.
+# Подробности — в README.md, раздел «Воспроизведение».
+
+# в transformers v5 регресс bitsandbytes 4-bit + device_map="auto":
+# lm_head теряет quant_state
+transformers>=4.46,<5
+
+# в Pillow 12.0+ PIL/ImageDraw.py тянет несуществующее имя _Ink из PIL._typing
+# и ломает `import peft`
+pillow<12,>=10.0.0
+
+accelerate>=0.31
+peft>=0.11
+bitsandbytes>=0.43
+datasets>=2.19
+sentencepiece
+matplotlib
+tqdm
+scipy
+pandas
+numpy
