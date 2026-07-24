@@ -80,7 +80,7 @@
 │   └── predictions_bos_sweep.csv    — ответы в режиме с BOS
 ├── docs/
 │   ├── REPORT.md                    — технический отчёт
-│   └── EXPERIMENTS.md               — дневник экспериментов
+│   └── EXPERIMENTDIARY.md               — дневник экспериментов
 └── adapter/                         — LoRA-адаптер (веса + processor и tokenizer)
 ```
 
