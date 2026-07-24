@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+
+# крупные артефакты — выкладываются отдельной ссылкой
+*.zip
+trainer_checkpoints/
+checkpoint-*/
